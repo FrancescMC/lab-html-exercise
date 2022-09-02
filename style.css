@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*_Useful information_:
+
+- _form label color_: rgba(0,0,0,.05)
+- _form input color_: rgba(0,0,0,.05)
+- _form button background color_: #fb3e44
+- _form button letters color_: white*/
+
+body {
+    font-family: 'Poppins';
+}
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  .npm-logo {
+    width: 60px;
+    margin-right: 1rem;
+  }
+  .magnifying-glass {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  .redbutton {
+    background-color: #fb3e44;
+    color: white;
+    border:none;
+    padding: 10px 15px;
+  }
+  .buttonjoin {
+    padding: 5px 15px;
+  }
+  .buttonlogin {
+    border:none;
+  }
+ .navbar {
+    background-color:rgba(0,0,0,.05);
+    color: rgba(0,0,0,.05);
+    border: none;
+ }
+ h1 {
+    font-size: 6em;
+    font-weight: bolder;
+    text-align: center;
+ }
+ h2 {
+    font-size: 2em;
+ }
+article {
+    text-align: center;
+    margin:auto;
+}
+.triangles {
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section3 {
+    text-align: center;
+}
+.zero-configuration {
+    width: 1%
+}
+.team-management {
+    width: 1%
+}
+.familiar-features {
+    width: 1%
+}
+.npm-audit {
+    width: 1%
+}
+#section3 div {
+    margin: auto;
+}
